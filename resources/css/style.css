@@ -1,3 +1,8 @@
+div {
+  border: 1px black solid;
+}
+
+
 /* Header Section */
 
 .header {
@@ -39,17 +44,114 @@ nav ul li {
 .main-banner {
   display: flex;
   background-color: lightgray;
+  align-items: center;
 }
 
-.main-banner .image {
-  margin: 32px 24px;
 
-}
 
-.main-banner .image img {
+.main-banner img {
  width: 60%;
+ height: auto;
+ object-fit: contain;
+ margin: 32px 24px;
 }
 
 .button-container {
   display: flex;
+  flex-direction: column;
+  width: 20%;
+  padding: .7rem;
+}
+
+.button-container h1 {
+  font-weight: 700;
+  font-size: 2.0rem;
+  padding-bottom: 1rem;
+}
+
+.button-container h3 {
+  font-weight: 600;
+  line-height: 1.4;
+  padding-bottom: 1.4rem;
+}
+
+#button {
+  padding: 10px 0px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  transition: all .5s linear .1s
+}
+
+#button span {
+  font-size: .9rem;
+}
+
+#button:hover {
+  background-color: grey;
+  color: pink;
+}
+
+
+/* Info-Banner Section */
+
+.info-banner {
+  display: flex;
+}
+
+
+/* Info-Banner Left-Pane */
+
+.info-banner .left-pane {
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+.info-banner .left-pane .info-image img {
+  width: 100%;
+}
+
+.left-pane h2 {
+
+}
+
+
+/* Info-Banner Right-Pane */
+
+.info-banner .right-pane {
+  width: 40%;
+  margin: 2rem 0 2rem 0;
+  border: 1px red solid;
+}
+
+.right-pane .info {
+  display: flex;
+  border: 1px purple dotted;
+  padding: 1rem;
+}
+
+.right-pane .info .info-image {
+  width: 35%;
+  height: auto;
+}
+
+.right-pane .info .info-image img {
+  width: 100%;
+}
+
+.right-pane .info .info-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  line-height: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.right-pane .orientation {
+  padding-top: 0;
+}
+
+.right-pane .orientation img {
+/*   margin: 0 1.5rem 1rem 0.5rem; */
 }
