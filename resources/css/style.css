@@ -2,6 +2,13 @@ div {
   border: 1px black solid;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
 
 /* Header Section */
 
@@ -53,19 +60,19 @@ nav ul li {
  width: 60%;
  height: auto;
  object-fit: contain;
- margin: 32px 24px;
+ margin: 2rem 1.5rem;
 }
 
 .button-container {
   display: flex;
   flex-direction: column;
   width: 20%;
-  padding: .7rem;
+  margin: .7rem;
 }
 
 .button-container h1 {
   font-weight: 700;
-  font-size: 2.0rem;
+  font-size: 2.75rem;
   padding-bottom: 1rem;
 }
 
