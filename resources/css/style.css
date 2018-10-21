@@ -1,3 +1,55 @@
+/* Header Section */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+
+.logo {
+  height: 32px;
+  margin-left: 24px;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+}
+
 .logo .first {
   font-weight: 700;
+}
+
+.logo span {
+  text-transform: uppercase;
+}
+
+nav ul {
+  display: flex;
+  padding: 16px;
+}
+
+nav ul li {
+  padding: 8px;
+}
+
+/* Main Banner Section */
+
+.main-banner {
+  display: flex;
+  background-color: lightgray;
+}
+
+.main-banner .image {
+  margin: 32px 24px;
+
+}
+
+.main-banner .image img {
+ width: 60%;
+}
+
+.button-container {
+  display: flex;
 }
