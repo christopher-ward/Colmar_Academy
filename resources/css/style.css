@@ -16,17 +16,17 @@ html {
 
 h1 {
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 h2 {
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 h3 {
   font-weight: 700;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 h4 {
@@ -141,10 +141,6 @@ nav ul li {
   width: 100%;
 }
 
-.left-pane h2 {
-
-}
-
 
 /* Info-Banner Right-Pane */
 
@@ -156,6 +152,7 @@ nav ul li {
 .right-pane .info {
   display: flex;
   padding: 1rem;
+  border: 1px lightgray solid;
 }
 
 .right-pane .info .info-image {
@@ -176,18 +173,8 @@ nav ul li {
   margin-left: 1.5rem;
 }
 
-.right-pane .orientation {
-  padding-top: 0;
-}
-
-.right-pane .orientation img {
-/*   margin: 0 1.5rem 1rem 0.5rem; */
-}
-
 
 /* Start Learning Section */
-
-
 
 .learning {
   flex-direction: column;
@@ -234,7 +221,6 @@ nav ul li {
 
 .exhibit {
   flex-direction: column;
-  border: 1px red solid;
 }
 
 .exhibit h2 {
