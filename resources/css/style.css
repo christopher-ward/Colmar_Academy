@@ -1,12 +1,41 @@
+html {
+  font-size: 16px;
+}
+
 div {
   border: 1px black solid;
 }
 
-body {
+.site-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 1rem;
 }
 
 
@@ -17,6 +46,7 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 64px;
+  width: 100%;
 }
 
 .logo {
@@ -52,9 +82,8 @@ nav ul li {
   display: flex;
   background-color: lightgray;
   align-items: center;
+  width: 100%;
 }
-
-
 
 .main-banner img {
  width: 60%;
@@ -66,13 +95,11 @@ nav ul li {
 .button-container {
   display: flex;
   flex-direction: column;
-  width: 20%;
-  margin: .7rem;
+  width: 25%;
+  margin: 0.75rem;
 }
 
 .button-container h1 {
-  font-weight: 700;
-  font-size: 2.75rem;
   padding-bottom: 1rem;
 }
 
@@ -83,7 +110,7 @@ nav ul li {
 }
 
 #button {
-  padding: 10px 0px;
+  padding: 1rem 0;
   text-align: center;
   background-color: black;
   color: white;
@@ -91,7 +118,7 @@ nav ul li {
 }
 
 #button span {
-  font-size: .9rem;
+  font-size: 1rem;
 }
 
 #button:hover {
@@ -161,4 +188,51 @@ nav ul li {
 
 .right-pane .orientation img {
 /*   margin: 0 1.5rem 1rem 0.5rem; */
+}
+
+
+/* Start Learning Section */
+
+.learning {
+  flex-direction: column;
+  align-items: center;
+}
+
+.learning h2 {
+  margin-top: 2rem;
+}
+
+.academic-paths {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem 3.5rem;
+}
+
+.path {
+  height: auto;
+  width: 30%;
+  padding: 1rem;
+}
+
+.path img {
+  width: 100%;
+}
+
+.path-text h3 {
+  padding: 1rem 0 0.5rem 1rem;
+}
+
+.path-text span {
+  padding: 0.5rem 0 0.5rem 1rem;
+}
+
+.path-text p {
+  margin: 0.25rem 0 0.25rem 1rem;
+}
+
+/**/
+
+video {
+  width: 100%;
 }
